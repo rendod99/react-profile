@@ -1,0 +1,13 @@
+.flex-box{
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  .flex-items {
+    padding: 5px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+  }
+
+  
