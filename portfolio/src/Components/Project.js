@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
@@ -9,14 +10,19 @@ import './Project.css';
 function Project(props) {
 
  return (
-  <div className="flex-box">
-    <div class="flex-items"><h2>{props.projectName}</h2>
-      <img src= {props.image} width="250" height="250" />
-      <a href={props.gitLink}><h4>{props.projectName} Github Link</h4></a>
-      <a href={props.deployed}><h4>Go to {props.projectName}</h4></a>
+   <div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      <h1 class="display-4">{props.projectName}</h1>
+      <p class="lead">Image.<img src={props.image}  /></p>
+      <a href={props.gitLink} class="card-link"><h5>Git link</h5></a>
+      <a href={props.deployed} class="card-link"><h5>Deployed link</h5></a>
       </div>
-  </div >
-    )
+    </div>
+  </div>
+  )
 }
 
 export default Project
+
+

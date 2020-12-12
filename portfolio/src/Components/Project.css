@@ -4,10 +4,19 @@
   }
 
   .flex-items {
-    padding: 5px;
+    padding: 20px;
     margin-left: 100px;
     margin-bottom: 10px;
+    width:400;
+    height:250;
     
+  }
+
+  .jumbotron{
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background: skyblue;
   }
 
   
