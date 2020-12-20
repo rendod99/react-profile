@@ -40,6 +40,13 @@
     "image": "images/team_builder.png",
     "gitLink": "https://github.com/rendod99/OOP_Template-Engine",
     "deployed": "https://rendod99.github.io/WeatherDashboard_hw_wk6/"
+    },
+    {
+        "id": 7,
+    "projectName": "Google API Book Search",
+    "image": "images/book-search.png",
+    "gitLink": "https://github.com/rendod99/google-book-search",
+    "deployed": "https://mysterious-cliffs-71529.herokuapp.com/"
     }
 
 ]
